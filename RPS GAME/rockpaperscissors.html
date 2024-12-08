@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="rockpaperscissors.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock, Paper, Scissors</h1>
+      <label for="rounds">Select number of rounds (1-5):</label>
+      <select id="rounds">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <button id="startBtn">Start Game</button>
+
+      <div id="game" style="display: none">
+        <h2>Choose your move:</h2>
+        <button class="move" data-move="rock">Rock</button>
+        <button class="move" data-move="paper">Paper</button>
+        <button class="move" data-move="scissors">Scissors</button>
+        <div id="result"></div>
+        <div id="scoreboard">
+          <p>Player Score: <span id="playerScore">0</span></p>
+          <p>Computer Score: <span id="computerScore">0</span></p>
+          <p>Rounds Left: <span id="roundsLeft"></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="./rockpaperscissors.js"></script>
+  </body>
+</html>

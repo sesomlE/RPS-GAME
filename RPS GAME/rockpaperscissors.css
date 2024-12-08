@@ -1,0 +1,82 @@
+body {
+  background: radial-gradient(circle, #141e30, #243b55);
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(145deg, #3a6073, #16222a);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7), inset 0px 2px 5px rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #29f1c3;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+button {
+  background: linear-gradient(to right, #29f1c3, #12c2e9);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to right, #12c2e9, #29f1c3);
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f39c12;
+}
+
+#scoreboard {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.move {
+  display: inline-block;
+  margin: 10px;
+  background: linear-gradient(145deg, #29f1c3, #12c2e9);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.move:hover {
+  background: linear-gradient(145deg, #12c2e9, #29f1c3);
+  transform: translateY(-5px);
+}
+
+#game {
+  margin-top: 20px;
+}
